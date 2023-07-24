@@ -1,6 +1,6 @@
 # Web-Resume
 
-[![GitHub Pages](https://github.com/YunYouJun/web-resume/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/YunYouJun/web-resume/actions/workflows/gh-pages.yml)
+[![GitHub Pages](https://github.com/wh1teAlter/web-resume/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/wh1teAlter/web-resume/actions/workflows/gh-pages.yml)
 
 [Vite](https://vitejs.dev/) + [Vue3](https://github.com/vuejs/vue-next/) + [sass](https://sass-lang.com/) + [iconify](https://github.com/iconify) + [YAML](https://yaml.org/) + [Chrome](https://www.google.com/chrome/)
 
@@ -35,7 +35,7 @@
 > 热加载。
 
 ```bash
-git clone https://github.com/YunYouJun/web-resume
+git clone https://github.com/wh1teAlter/web-resume
 cd web-resume
 pnpm i
 pnpm run resume
@@ -87,8 +87,8 @@ app.use(VueGtag, {
 
 ## Sponsors
 
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/YunYouJun/sponsors/public/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/YunYouJun/sponsors/public/sponsors.svg'/>
+<!-- <p align="center">
+  <a href="https://cdn.jsdelivr.net/gh/wh1teAlter/sponsors/public/sponsors.svg">
+    <img src='https://cdn.jsdelivr.net/gh/wh1teAlter/sponsors/public/sponsors.svg'/>
   </a>
-</p>
+</p> -->

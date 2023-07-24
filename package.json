@@ -6,13 +6,12 @@
   "packageManager": "pnpm@8.6.7",
   "description": "Web 简历",
   "author": {
-    "url": "https://www.yunyoujun.cn",
-    "email": "me@yunyoujun.cn",
-    "name": "YunYouJun"
+    "email": "z2369332823@icloud.com",
+    "name": "wh1teAlter"
   },
   "homepage": "https://resume.elpsy.cn",
   "repository": {
-    "url": "https://github.com/YunYouJun/web-resume",
+    "url": "https://github.com/wh1teAlter/web-resume",
     "type": "git"
   },
   "scripts": {
@@ -59,7 +58,6 @@
     "@types/nprogress": "^0.2.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "@yunlefun/vue-components": "0.0.5-beta.4",
-    "@yunyoujun/logger": "^0.3.5",
     "ajv": "^8.12.0",
     "critters": "^0.0.19",
     "cross-env": "^7.0.3",

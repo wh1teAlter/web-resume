@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
 
 settings:
   autoInstallPeers: true
@@ -88,9 +88,6 @@ devDependencies:
   '@yunlefun/vue-components':
     specifier: 0.0.5-beta.4
     version: 0.0.5-beta.4
-  '@yunyoujun/logger':
-    specifier: ^0.3.5
-    version: 0.3.5
   ajv:
     specifier: ^8.12.0
     version: 8.12.0
@@ -3154,12 +3151,6 @@ packages:
 
   /@yunlefun/vue-components@0.0.5-beta.4:
     resolution: {integrity: sha512-oka4X4KtA0K83wEzcRTYhdNPbBKY+9zIbOTfyH8O+qWmIdDzMipFL1Hb2G6LlcaCdG0xb0kAfv2q+79NFsqRpA==}
-    dev: true
-
-  /@yunyoujun/logger@0.3.5:
-    resolution: {integrity: sha512-GELaraK/bcA/srwkNz2NDBg10jAB5nkB2WZ/8fXbBsPJ3wN4DXfKcH3oWVgwYx04wPj4TF10k9mKagMIP6UUfw==}
-    dependencies:
-      chalk: 4.1.2
     dev: true
 
   /abab@2.0.6:

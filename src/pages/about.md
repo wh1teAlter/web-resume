@@ -27,14 +27,10 @@ contact:
     href: tel:166 xxxx xxxx
     icon: ri:smartphone-line
     label: 166 xxxx xxxx
-  blog:
-    href: https://www.yunyoujun.cn
-    icon: ri:earth-line
-    label: https://yunyoujun.cn
   github:
-    href: https://github.com/YunYouJun
+    href: https://github.com/wh1teAlter
     icon: ri:github-line
-    label: YunYouJun
+    label: wh1teAlter
 ```
 
 - 简洁至上：以 Markdown 为中心编写简历，基于 YAML 数据配置
@@ -48,7 +44,7 @@ contact:
 Click repo `Use this template`, or clone this。
 
 ```bash
-git clone https://github.com/YunYouJun/web-resume
+git clone https://github.com/wh1teAlter/web-resume
 cd web-resume
 pnpm i
 pnpm run resume

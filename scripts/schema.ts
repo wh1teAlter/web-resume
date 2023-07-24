@@ -2,7 +2,6 @@ import * as fs from 'node:fs'
 import * as path from 'node:path'
 
 import * as TJS from 'typescript-json-schema'
-import logger from './logger'
 
 // optionally pass argument to schema generator
 const settings: TJS.PartialArgs = {
@@ -28,4 +27,4 @@ fs.writeFileSync(
   'src/assets/schema/resume.schema.json',
   formattedSchema,
 )
-logger.success('Generate resume schema successfully!')
+console.warn('Generate resume schema successfully!')

@@ -1,28 +1,19 @@
 # local resume example
 
 basics:
-  name: 云游君
+  name: 小白
   # label: 程序员
-  # avatar: https://yunyoujun.cn/images/avatar.jpg
   bio: All at sea.
 
 contact:
   email:
-    href: mailto:me@yunyoujun.cn
+    href: mailto:z2369332823@icloud.com
     icon: ri:mail-line
-    label: me@yunyoujun.cn
+    label: z2369332823@icloud.com
   phone:
-    href: tel:166XXXXXXXX
+    href: tel:18624837102
     icon: ri:smartphone-line
-    label: 166XXXXXXXX
-  blog:
-    href: https://www.yunyoujun.cn
-    icon: ri:earth-line
-    label: https://yunyoujun.cn
-  github:
-    href: https://github.com/YunYouJun
-    icon: ri:github-fill
-    label: YunYouJun
+    label: 186 2483 7102
 
 education:
   icon: fa:graduation-cap
@@ -30,28 +21,11 @@ education:
   histories:
     - school: 中国传媒大学
       logo: /img/logo/cuc-logo.jpg
-      start: 2019 年 9 月
-      end: 2022 年 6 月
-      grade: 'GPA: 3.93，均分 92.3（专业第一）'
-      area: 计算机应用技术（数字娱乐与动画技术方向）
-      studyType: 硕士
-      city: 北京
-    - school: 上海海事大学
-      logo: https://www.shmtu.edu.cn/sites/default/files/smu_logo.ico
-      start: 2014 年 9 月
-      end: 2018 年 6 月
-      grade: 'GPA: 3.33（专业前 10%）， CET-6'
-      area: 计算机科学与技术
+      start: 2016 年 9 月
+      end: 2020 年 6 月
+      area: 软件学院（网络工程）
       studyType: 本科
-      city: 上海
-    - school: 上海理工大学
-      logo: 'https://resume.yunyoujun.cn/img/logo/usst-logo.svg'
-      start: 2015 年 9 月
-      end: 2017 年 6 月
-      grade: 'GPA: 3.93（专业第一）'
-      area: 动画
-      studyType: 跨校辅修
-      city: 上海
+      city: 北京
 
 project:
   icon: ri:folders-line

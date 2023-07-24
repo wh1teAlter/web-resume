@@ -10,8 +10,8 @@ const app = useAppStore()
 onMounted(() => {
   app.curResume = {
     title: 'Local',
-    url: 'https://raw.githubusercontent.com/YunYouJun/web-resume/main/src/assets/resume/local.resume.yml',
-    href: 'https://github.com/YunYouJun/web-resume/blob/main/src/assets/resume/local.resume.yml',
+    url: 'https://raw.githubusercontent.com/wh1teAlter/web-resume/main/src/assets/resume/local.resume.yml',
+    href: 'https://github.com/wh1teAlter/web-resume/blob/main/src/assets/resume/local.resume.yml',
   }
 })
 </script>
