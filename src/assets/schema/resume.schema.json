@@ -99,7 +99,6 @@
         }
       },
       "required": [
-        "blog",
         "email",
         "phone"
       ]
@@ -193,7 +192,6 @@
         "area",
         "city",
         "end",
-        "grade",
         "school",
         "start",
         "studyType"

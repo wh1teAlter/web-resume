@@ -28,7 +28,7 @@
 
 View `https://resume.elpsy.cn/#/resume?url=` + `Your Resume File URL`.
 
-For example: `https://resume.elpsy.cn/#/resume?url=https://fastly.jsdelivr.net/gh/wh1teAlter/web-resume/src/assets/resume/local.resume.yml`.
+For example: `https://resume.elpsy.cn/#/resume?url=https://cdn.jsdelivr.net/gh/wh1teAlter/web-resume@main/src/assets/resume/local.resume.yml`.
 
 #### Edit
 

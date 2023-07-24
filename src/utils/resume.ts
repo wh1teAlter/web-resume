@@ -14,8 +14,13 @@ export const resumeExamples: ResumeItem[] = [
   {
     // name: `${t('noun.worker')}`,
     title: '示例：打工人',
-    url: 'https://fastly.jsdelivr.net/gh/wh1teAlter/web-resume/src/assets/resume/local.resume.yml',
+    url: 'https://cdn.jsdelivr.net/gh/wh1teAlter/web-resume@main/src/assets/resume/local.resume.yml',
     href: 'https://github.com/wh1teAlter/web-resume/blob/main/src/assets/resume/local.resume.yml',
+  }, {
+    // name: `${t('noun.worker')}`,
+    title: '本地',
+    url: 'src/assets/resume/local.resume.yml',
+    href: 'src/assets/resume/local.resume.yml',
   },
 ]
 

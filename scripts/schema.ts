@@ -24,7 +24,7 @@ const schema = TJS.generateSchema(program, 'ResumeInfo', settings)
 const formattedSchema = `${JSON.stringify(schema, null, 2)}\n`
 // write
 fs.writeFileSync(
-  'src/assets/schema/resume.schema.json',
+  '../src/assets/schema/resume.schema.json',
   formattedSchema,
 )
 console.warn('Generate resume schema successfully!')

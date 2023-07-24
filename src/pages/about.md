@@ -12,17 +12,17 @@ title: About
 - 使用 YAML 编写
 
 ```yaml
-id: 云游君
-name: 云游君
+id: 小白
+name: 小白
 info:
-  avatar: https://yunyoujun.cn/images/avatar.jpg
+  # avatar: 'url...'
   bio: All at sea.
 
 contact:
   email:
-    href: mailto:me@yunyoujun.cn
+    href: mailto:xiaobai@yunle.fun
     icon: ri:mail-line
-    label: me@yunyoujun.cn
+    label: xiaobai@yunle.fun
   phone:
     href: tel:166 xxxx xxxx
     icon: ri:smartphone-line

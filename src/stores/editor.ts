@@ -5,10 +5,9 @@ import type * as m from 'monaco-editor'
 import yaml from 'js-yaml'
 import Ajv from 'ajv'
 import { useAppStore } from './app'
+import resumeSchema from '~/assets/schema/resume.schema.json'
 import type { ResumeInfo, ResumeItem } from '~/types'
 import { fetchText, isClient, namespace, overrideResume, resumeExamples } from '~/utils'
-
-import resumeSchema from '~/assets/schema/resume.schema.json'
 
 const ajv = new Ajv()
 const validate = ajv.compile(resumeSchema)

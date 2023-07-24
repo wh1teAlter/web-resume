@@ -19,13 +19,13 @@ education:
   icon: fa:graduation-cap
   title: 教育背景
   histories:
-    - school: 中国传媒大学
-      logo: /img/logo/cuc-logo.jpg
+    - school: 河南大学
+      logo: /images/henu.webp
       start: 2016 年 9 月
       end: 2020 年 6 月
       area: 软件学院（网络工程）
       studyType: 本科
-      city: 北京
+      city: 河南
 
 project:
   icon: ri:folders-line

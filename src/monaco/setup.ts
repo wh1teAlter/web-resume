@@ -1,5 +1,3 @@
-// import resumeSchema from '../../public/schema/resume.schema.json'
-
 // a magic way to fix vite worker with monaco-yaml
 // https://github.com/remcohaszing/monaco-yaml/issues/150
 
@@ -69,9 +67,7 @@ export async function setup() {
     format: true,
     schemas: [
       {
-        uri: '/schema/resume.schema.json',
-        // uri: 'https://raw.githubusercontent.com/wh1teAlter/web-resume/main/public/schema/resume.schema.json',
-        // schema: resumeSchema,
+        uri: '../assets/schema/resume.schema.json',
         fileMatch: ['*.yml', '*.yaml'],
       },
     ],
