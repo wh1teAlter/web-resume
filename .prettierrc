@@ -1,0 +1,4 @@
+# https://github.com/vuejs/vue-next/blob/master/.prettierrc
+semi: false
+singleQuote: true
+printWidth: 80

@@ -1,0 +1,227 @@
+# local resume example
+
+basics:
+  name: 云游君
+  # label: 程序员
+  # avatar: https://yunyoujun.cn/images/avatar.jpg
+  bio: All at sea.
+
+contact:
+  email:
+    href: mailto:me@yunyoujun.cn
+    icon: ri:mail-line
+    label: me@yunyoujun.cn
+  phone:
+    href: tel:166XXXXXXXX
+    icon: ri:smartphone-line
+    label: 166XXXXXXXX
+  blog:
+    href: https://www.yunyoujun.cn
+    icon: ri:earth-line
+    label: https://yunyoujun.cn
+  github:
+    href: https://github.com/YunYouJun
+    icon: ri:github-fill
+    label: YunYouJun
+
+education:
+  icon: fa:graduation-cap
+  title: 教育背景
+  histories:
+    - school: 中国传媒大学
+      logo: /img/logo/cuc-logo.jpg
+      start: 2019 年 9 月
+      end: 2022 年 6 月
+      grade: 'GPA: 3.93，均分 92.3（专业第一）'
+      area: 计算机应用技术（数字娱乐与动画技术方向）
+      studyType: 硕士
+      city: 北京
+    - school: 上海海事大学
+      logo: https://www.shmtu.edu.cn/sites/default/files/smu_logo.ico
+      start: 2014 年 9 月
+      end: 2018 年 6 月
+      grade: 'GPA: 3.33（专业前 10%）， CET-6'
+      area: 计算机科学与技术
+      studyType: 本科
+      city: 上海
+    - school: 上海理工大学
+      logo: 'https://resume.yunyoujun.cn/img/logo/usst-logo.svg'
+      start: 2015 年 9 月
+      end: 2017 年 6 月
+      grade: 'GPA: 3.93（专业第一）'
+      area: 动画
+      studyType: 跨校辅修
+      city: 上海
+
+project:
+  icon: ri:folders-line
+  title: 项目经历
+  sets:
+    - name: 蚂蚁集团 支付宝 体验技术部
+      logo: ri:alipay-line
+      type: 前端工程师
+      start: 2022 年 7 月
+      end: 至今
+      keywords:
+        - name: Tiny.js/Pixi.js
+          icon: i-ri:paint-brush-line
+        - name: Lottie
+        - name: React
+          icon: simple-icons:react
+        - name: Less
+          icon: simple-icons:less
+        - name: XCode
+          icon: simple-icons:xcode
+        - name: TypeScript
+          icon: simple-icons:typescript
+        - name: Zustand
+        - name: RPC 等相关内部调试工具
+          icon: 🐜
+      summary: ToC, 🐤 蚂蚁庄园, 月DAU千万，互动应用（支付宝端内流量第二）
+      highlights:
+        - 庄园前端：开发五周年活动，从零到一开发做饭互动玩法，负责并保障庄园五福分会场及年夜饭活动上线，超出业务目标。
+        - 架构升级：将维护近六年的庄园包从原生开发 + 离线包迁移升级至内部 React 框架 + 在线页，采用 Zustand 订阅数据模式，重写主链路逻辑、抽取动画组件、并进行大幅性能与结构优化。拥有丰富的不同机型、设备的响应式与兼容适配经验。
+        - 拥有支付宝端内流量第二的 H5 Hybrid 应用与微信/支付宝小程序 + AR 开发经验。
+        - 了解图形学基础，能够实现图形互动玩法、动画状态机与轻量 3D 交互场景，如蚂蚁森林徽章、小鸡公仔 3D 模型展示等。
+        - 实习 2021.7：蚂蚁森林神奇动物徽章旋转动画、蚂蚁新村模块开发、负责蚂蚁森林五周年前端开发、Unity To Web 工具建设
+    - name: 腾讯 CSIG 智慧出行
+      logo: ri:qq-line
+      type: 实习，前端开发，汽车云大数据平台画像业务开发
+      start: 2021 年 5 月
+      end: 2021 年 7 月
+      # open: false
+      summary: 独立进行腾讯云汽车大数据中后台及图表开发，React + Tea，拥有大型平台业务开发经验。
+    - name: 其他
+      logo: ri:github-line
+      type: 业余开源项目
+      start: 2017 年 1 月
+      end: 至今
+      url: https://sponsors.yunyoujun.cn/projects
+      keywords:
+        - name: Vue
+          icon: simple-icons:vuedotjs
+        - name: React
+          icon: simple-icons:react
+        - name: Scss
+          icon: simple-icons:sass
+      highlights:
+        - 开源爱好者，Element Plus 团队核心成员，为 Element 等 50 个开源项目积极贡献 PR，有良好的沟通协作能力。
+        - 喜欢开发各类产品工具，个人项目共计收获 10k+ Star，在 Valaxy（博客框架）、ADV.JS（文字冒险游戏引擎）等项目中就 Vite/CI/CD 进行了大量的工程化实践，也沉淀了许多类库模版如 nnrm、mirai-ts、web-resume、vitesse-h5 等项目。
+        - 在图形互动，细节优化，用户体验，兼容适配，项目工程化与大型开源项目协作方面有一定经验。
+
+skill:
+  icon: ri:flask-line
+  title: 技能经验
+  sets:
+    - title: 语言
+      keywords:
+        - name: ' '
+          icon: simple-icons:markdown
+        - name: ' '
+          icon: simple-icons:html5
+        - name: ' '
+          icon: simple-icons:css3
+        - name: ' '
+          icon: simple-icons:javascript
+        - name: 'TypeScript > '
+          icon: simple-icons:typescript
+        - name: 'scss == '
+          icon: simple-icons:sass
+        - name: 'stylus == '
+          icon: simple-icons:stylus
+        - name: Python，
+          icon: simple-icons:python
+        - name: ''
+          icon: simple-icons:php
+        - name: ''
+          icon: simple-icons:cplusplus
+    - title: 环境
+      keywords:
+        - name: 'macOS > '
+          icon: simple-icons:apple
+        - name: 'Windows > '
+          icon: simple-icons:windows
+        - name: 'Linux, '
+          icon: simple-icons:linux
+        - name: 'Node.js, '
+          icon: simple-icons:node-dot-js
+        - name: 'npm, '
+          icon: simple-icons:npm
+        - name: 'Nginx, '
+          icon: simple-icons:nginx
+        - name: 'Mysql, '
+          icon: simple-icons:mysql
+        - name: MongoDB
+          icon: simple-icons:mongodb
+    - title: 工具
+      keywords:
+        - name: 'Vue.js, '
+          icon: simple-icons:vue-dot-js
+        - name: 'Element, '
+          logo: https://ink.elpsy.cn/favicon.ico
+        - name: 'Vuetify, '
+          icon: simple-icons:vuetify
+        - name: 'Nuxt, '
+          icon: simple-icons:nuxt-dot-js
+        - name: 'NestJS, '
+          icon: simple-icons:nestjs
+        - name: ''
+          icon: simple-icons:bootstrap
+        - name: ''
+          icon: simple-icons:three-dot-js
+        - name: ', '
+          icon: simple-icons:d3-dot-js
+        - name: 'Gulp, '
+          icon: simple-icons:gulp
+        - icon: simple-icons:webpack
+        - name: Vite
+          icon: file-icons:vite
+    - title: 软件
+      keywords:
+        - name: 'Visual Studio Code, '
+          icon: simple-icons:visualstudiocode
+        - name: 'Cocos Creator, '
+          icon: simple-icons:cocos
+        - name: ''
+          icon: simple-icons:github
+        - name: '&'
+          icon: simple-icons:git
+        - name: 'Bash || '
+          icon: ri:terminal-box-line
+        - name: ''
+          icon: simple-icons:adobephotoshop
+        - name: ''
+          icon: simple-icons:adobepremiere
+        - name: ''
+          icon: simple-icons:adobeaftereffects
+
+certificate:
+  icon: ri:award-line
+  title: 奖项表彰
+  histories:
+    - name: 一等奖学金、毕业生三好学生
+      place: 中国传媒大学
+      time: 2019-2022
+    - name: 一等奖学金、校三好学生、优秀毕业生、优秀毕业设计（论文）
+      place: 上海海事大学
+      time: 2014-2018
+    - name: 中国大学生计算机设计大赛二等奖、MathorCup 大学生数学建模挑战赛二等奖、蓝桥杯上海赛区 C/C++ 组二等奖
+      time: 2017-2018
+    - name: 中科院开源之夏、CCF GitLink Code Camp、腾讯犀牛鸟开源人才培养计划优秀项目结业
+      time: 2022
+    - name: 'Color-Dust: A Data Visualization Application of Image Color Based on K-Means Algorithm 一作'
+      place: ICMLC (EI - IEEE)
+      time: 2020
+
+other:
+  icon: ri:information-line
+  title: 其他总结
+  info:
+    - 热衷开源，关注前沿，擅长实践沉淀，想用技术为日常带来微小美好的改变，拥有 PC 端/移动端 适配与高可用开发经验。
+    - 有良好的产品思维，个人业余项目小空调、做菜等项目访问量破千万，被人民日报、半月谈、人民网等媒体采访转发。
+    - 积极尝试 AI 相关应用，有 AIGC 相关项目（蚂蚁庄园小鸡日记、B站塞尔达武器合成）开发及个人 IP LoRA 落地经验。
+    # - 爱好科幻，中国科普作协会员，曾获科普中国科普科幻青年之星、上海市幻想节科幻创作大赛一等奖
+    # - 为人热心，曾前往甘肃武威支教，全国大学生百强暑期优秀实践团队
+
+# footer:
+#   link: https://resume.elpsy.cn
