@@ -27,7 +27,7 @@ onMounted(async () => {
     :open="set.open ?? true"
   >
     <summary>
-      <iconify-icon v-if="set.logo" :icon="set.logo" />
+      <iconify-icon :icon="set.logo" />
       <span class="project-name font-bold">
         {{ set.name }}
       </span>

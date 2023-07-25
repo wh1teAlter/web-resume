@@ -3,6 +3,7 @@ import type { ResumeInfo } from '~/types'
 
 import ResumeEducation from '~/components/resume/Education.vue'
 import ResumeProject from '~/components/resume/Project.vue'
+import ResumeWork from '~/components/resume/Work.vue'
 import ResumeCertificate from '~/components/resume/Certificate.vue'
 import ResumeSkill from '~/components/resume/Skill.vue'
 import ResumeOther from '~/components/resume/Other.vue'
@@ -15,6 +16,7 @@ const props
 const resumeComponents = [
   'education',
   'project',
+  'work',
   'certificate',
   'skill',
   'other',
@@ -23,6 +25,7 @@ const resumeComponents = [
 const resumeMap: Record<string, any> = {
   education: ResumeEducation,
   project: ResumeProject,
+  work: ResumeWork,
   certificate: ResumeCertificate,
   skill: ResumeSkill,
   other: ResumeOther,

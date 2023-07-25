@@ -45,15 +45,15 @@
     "skill": {
       "$ref": "#/definitions/Skill"
     },
+    "work": {
+      "$ref": "#/definitions/Work"
+    },
     "project": {
       "$ref": "#/definitions/Project"
     },
     "other": {
       "description": "其他",
       "$ref": "#/definitions/Other"
-    },
-    "certificate": {
-      "$ref": "#/definitions/Certificate"
     },
     "footer": {
       "description": "页脚",
@@ -71,7 +71,6 @@
   },
   "required": [
     "basics",
-    "certificate",
     "contact",
     "education",
     "project",
@@ -258,6 +257,103 @@
         }
       }
     },
+    "Work": {
+      "description": "项目经历",
+      "type": "object",
+      "properties": {
+        "sets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/WorkSet"
+          }
+        },
+        "icon": {
+          "description": "图标",
+          "type": "string"
+        },
+        "title": {
+          "description": "标题",
+          "type": "string"
+        }
+      },
+      "required": [
+        "icon",
+        "sets",
+        "title"
+      ]
+    },
+    "WorkSet": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "logo": {
+          "type": "string"
+        },
+        "open": {
+          "description": "是否展开",
+          "type": "boolean"
+        },
+        "repo": {
+          "description": "GitHub Repo",
+          "type": "string"
+        },
+        "type": {
+          "description": "类型",
+          "type": "string"
+        },
+        "start": {
+          "description": "开始时间",
+          "type": "string"
+        },
+        "end": {
+          "description": "结束时间",
+          "type": "string"
+        },
+        "url": {
+          "description": "链接",
+          "type": "string"
+        },
+        "summary": {
+          "description": "简介",
+          "type": "string"
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/Keyword"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "highlights": {
+          "description": "亮点",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "badges": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "end",
+        "logo",
+        "name",
+        "start",
+        "type"
+      ]
+    },
     "Project": {
       "description": "项目经历",
       "type": "object",
@@ -349,7 +445,6 @@
       },
       "required": [
         "end",
-        "logo",
         "name",
         "start",
         "type"
@@ -378,55 +473,6 @@
         "icon",
         "info",
         "title"
-      ]
-    },
-    "Certificate": {
-      "description": "奖项",
-      "type": "object",
-      "properties": {
-        "histories": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/CertificateHistory"
-          }
-        },
-        "icon": {
-          "description": "图标",
-          "type": "string"
-        },
-        "title": {
-          "description": "标题",
-          "type": "string"
-        }
-      },
-      "required": [
-        "histories",
-        "icon",
-        "title"
-      ]
-    },
-    "CertificateHistory": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "description": "名称",
-          "type": "string"
-        },
-        "place": {
-          "description": "地点",
-          "type": "string"
-        },
-        "time": {
-          "description": "时间",
-          "type": [
-            "string",
-            "number"
-          ]
-        }
-      },
-      "required": [
-        "name",
-        "time"
       ]
     }
   },
